@@ -1,6 +1,6 @@
 {
   "name": "txt-template",
-  "description": "TXT templating with EJS ",
+  "description": "TXT templating with mustache.js ",
   "author": "amimaro",
   "version": "0.1.0",
   "main": "index.js",
