@@ -1,6 +1,6 @@
 'use strict'
 
-const ejs = require('ejs')
+const mustache = require('mustache')
 const fs = require('fs')
 
 module.exports = async function txtTemplate(params) {
@@ -24,7 +24,7 @@ let writeTXT = async function(path, data) {
 }
 
 let render = async function(template, data) {
-  return ejs.render(template, data)
+  return mustache.render(template, data)
 }
 
 let unescapeQuotes =  function(data) {
