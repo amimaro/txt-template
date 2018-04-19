@@ -1,5 +1,5 @@
-Name: <%= name; %>
-Email: <%= email; %>
-Age: <%= age; %>
-Birthdate: <%= birthdate; %>
-Projects:  <%= projects.join(', '); %>
+Name: {{{name}}}
+Email: {{{email}}}
+Age: {{{age}}}
+Birthdate: {{{birthdate}}}
+Projects: {{{projects}}}
