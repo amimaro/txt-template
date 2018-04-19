@@ -1,0 +1,20 @@
+{
+  "name": "txt-template",
+  "description": "TXT templating with EJS ",
+  "author": "amimaro",
+  "version": "0.1.0",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": "amimaro/txt-template",
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "*"
+  }
+}
