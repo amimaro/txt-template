@@ -29,6 +29,12 @@ txtTemplate({
 
 ```
 
+## Testing
+
+```bash
+npm run test
+```
+
 ## License
 
 MIT [LICENSE.md](LICENSE.md)
