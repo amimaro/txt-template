@@ -14,7 +14,7 @@
   "keywords": [],
   "license": "MIT",
   "dependencies": {
-    "ejs": "^2.5.9"
+    "mustache": "^2.3.0"
   },
   "devDependencies": {
     "ava": "*"
