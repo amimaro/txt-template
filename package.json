@@ -2,7 +2,7 @@
   "name": "txt-template",
   "description": "TXT templating with mustache.js ",
   "author": "amimaro",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "index.js",
   "files": [
     "index.js"
@@ -11,7 +11,12 @@
     "test": "ava"
   },
   "repository": "amimaro/txt-template",
-  "keywords": ["txt","template","mustache","file"],
+  "keywords": [
+    "txt",
+    "template",
+    "mustache",
+    "file"
+  ],
   "license": "MIT",
   "dependencies": {
     "mustache": "^2.3.0"
