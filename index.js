@@ -8,10 +8,9 @@ module.exports = async function txtTemplate(params) {
     let template = await readTXT(params.template)
     let result = await render(unescapeQuotes(template), params.data)
     await writeTXT(params.output, result)
-    return true
+    return result
   } catch (err) {
-    console.error(`An error occured: ${err}`)
-    return false
+    throw err
   }
 }
 
