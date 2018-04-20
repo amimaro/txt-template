@@ -11,7 +11,7 @@
     "test": "ava"
   },
   "repository": "amimaro/txt-template",
-  "keywords": [],
+  "keywords": ["txt","template","mustache","file"],
   "license": "MIT",
   "dependencies": {
     "mustache": "^2.3.0"
